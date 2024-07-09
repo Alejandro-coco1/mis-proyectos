@@ -1,0 +1,167 @@
+body{
+    font-family: 'Arial' sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #2490a3;
+    color: black;
+}
+
+header, nav, section{
+    margin: 1;
+    padding: 2;
+    box-sizing: border-box;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a.hover{
+    text-decoration: underline;
+}
+
+h1, h2{
+    margin: 0%;
+    padding: 0cap;
+}
+ 
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+p{
+    margin: 10px 0;
+}
+
+header{
+    background-color: #1ace86;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2em;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+    background-color: #ffcdf8;
+    margin: 0%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Estilos para las secciones */
+.section {
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 1.2em;
+    color: #555;
+}
+ 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects div {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.projects div h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.projects div p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.projects div a {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Estilos para la sección "Sobre mí" */
+#about p {
+    text-align: center;
+}
+
+/* Estilos para la sección "Contacto" */
+#contacto .contact-info {
+    background: rgba(172, 14, 169, 0.815);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contacto .contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contacto .contact-info ul li {
+    margin-bottom: 10px;
+}
+
+#contacto .contact-info ul li a {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+    }
+}
+
+
